@@ -1,5 +1,5 @@
 
-# Windows
+# Use this for Intel
 Vagrant.configure("2") do |config|
   # Provisioning Python App
   config.vm.define "pythonapp" do |pythonapp|
