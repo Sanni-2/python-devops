@@ -1,5 +1,5 @@
 
-# WINDOWS
+# Windows
 Vagrant.configure("2") do |config|
   # Provisioning Python App
   config.vm.define "pythonapp" do |pythonapp|
@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
 end
 
 
-# USE THIS FOR ARM
+# USE THIS FOR M1
 # Vagrant.configure("2") do |config|
 #   # Provisioning Using VmWareFusion
 #   config.vm.define "pythonapp" do |pythonapp|
